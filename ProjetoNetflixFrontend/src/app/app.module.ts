@@ -4,15 +4,21 @@ import {TabMenuModule} from 'primeng/tabmenu';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import {CardModule} from 'primeng/card';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TabMenuModule
+    TabMenuModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

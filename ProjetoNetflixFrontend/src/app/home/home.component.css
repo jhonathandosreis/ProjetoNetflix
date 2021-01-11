@@ -1,0 +1,11 @@
+img {
+    width: 100%;
+    height: 80%;
+}
+
+.content-card {
+    padding-left: 2%;
+    position: relative;
+    align-items: center;
+    padding-bottom: 5%;
+}
